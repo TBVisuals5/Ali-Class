@@ -1,0 +1,6 @@
+1. Value of argv: address of array of argument strings.
+2. argv[0]: points to the program name string.
+3. Address of main: printed by gdb using 'info address main'.
+4. info stack: shows current call stack frames.
+5. info frame: details about the current stack frame (arguments, locals, saved registers).
+6. info registers: shows CPU registers; recognizable ones include RIP (instruction pointer), RSP (stack pointer), RBP (base pointer).

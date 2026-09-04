@@ -1,0 +1,5 @@
+1. File format: ELF64.
+2. Architecture: x86_64.
+3. Sections: .text, .data, .bss, .rodata, .plt, .symtab.
+4. main is in .text section; address matches gdb.
+5. Stack and heap are not explicit sections; they are managed at runtime by the OS.

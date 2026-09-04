@@ -1,0 +1,6 @@
+1. Addresses defined in executable: main, recur, static data (in .text and .data).
+2. Segments: .text (code), .data (initialized data), .bss (uninitialized data), .rodata (constants).
+3. Stack grows downward (addresses decrease).
+4. Stack frame size: typically ~32 bytes per recursive call.
+5. Heap grows upward (addresses increase).
+6. malloc areas may not be contiguous; allocator may leave gaps.
