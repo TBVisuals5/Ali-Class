@@ -1,0 +1,30 @@
+# Advanced Command Line Log
+
+ping google.com
+# Output: ICMP replies (stopped with Ctrl+C)
+
+curl https://example.com
+# Output: HTML from example.com
+
+ip addr
+# Output: network interface addresses
+
+sudo apt update
+sudo apt install tree
+tree
+# Output: directory tree of repo
+
+alias ll='ls -l'
+echo "alias ll='ls -l'" >> ~/.bashrc
+source ~/.bashrc
+
+env | grep PATH
+# Output: PATH environment variable
+
+# Script to automate directory listing (example)
+echo '#!/bin/bash
+tree
+ls -l
+' > list-dir.sh
+chmod +x list-dir.sh
+./list-dir.sh

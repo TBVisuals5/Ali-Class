@@ -1,0 +1,24 @@
+# Intermediate Command Line Log
+
+touch secret.txt
+chmod 600 secret.txt
+
+ls -l
+# Output shows secret.txt with -rw------- permissions.
+
+whoami
+# Output: codespace
+
+uname -a
+# Output: Linux <kernel info> ...
+
+ls -l > files.txt
+cat files.txt | grep txt
+# Output: lines containing .txt files
+
+find . -name "*.txt"
+# Output: list of .txt files in current tree
+
+# Count text files and append to log
+find . -name "*.txt" | wc -l >> intermediate-log.txt
+# Appended number of .txt files to this log.

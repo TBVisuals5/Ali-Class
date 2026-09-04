@@ -1,0 +1,28 @@
+# Easy Command Line Log
+
+pwd
+# Output: /workspaces/linux-c-lab
+
+ls
+# Output: README.md  command-line/  shell-scripts/  c-programs/
+
+cd command-line
+mkdir command-line-easy
+cd command-line-easy
+
+touch hello.txt
+nano hello.txt
+# Wrote: "Hello, Linux!"
+
+cp hello.txt hello-copy.txt
+mv hello-copy.txt ../
+rm hello.txt
+
+cat ../hello-copy.txt
+# Output: Hello, Linux!
+
+man ls
+# Viewed ls manual page.
+
+echo "Test" > test.txt
+# Created test.txt with content: Test
